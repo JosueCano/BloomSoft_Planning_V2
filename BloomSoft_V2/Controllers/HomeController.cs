@@ -75,7 +75,7 @@ namespace BloomSoft_V2.Controllers
             }
             return View(partJuego);
         }
-        /*
+        /*//Funcion para cambiar el turno
         public ActionResult GameBoard(int id_part)
         {
             var part = db.PartidaJugador.Where(x => x.id_partidaJuego == id_part);
